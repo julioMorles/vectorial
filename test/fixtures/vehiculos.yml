@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  placa: MyString
+  tipo_vehiculo_id: MyString
+
+two:
+  placa: MyString
+  tipo_vehiculo_id: MyString

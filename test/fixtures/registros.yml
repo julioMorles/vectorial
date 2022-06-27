@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  vehiculo_id: 1
+  fecha_ingreso: 2022-06-26
+  fecha_salida: MyString
+  valor: 1
+
+two:
+  vehiculo_id: 1
+  fecha_ingreso: 2022-06-26
+  fecha_salida: MyString
+  valor: 1
