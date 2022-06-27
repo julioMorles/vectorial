@@ -13,8 +13,8 @@
 ActiveRecord::Schema[7.0].define(version: 2022_06_27_000813) do
   create_table "registros", charset: "utf8mb4", force: :cascade do |t|
     t.bigint "vehiculo_id"
-    t.date "fecha_ingreso"
-    t.string "fecha_salida"
+    t.datetime "fecha_ingreso"
+    t.datetime "fecha_salida"
     t.integer "valor"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

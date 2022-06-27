@@ -17,8 +17,8 @@ class CreateVehiculos < ActiveRecord::Migration[7.0]
     end
     create_table :registros do |t|
       t.references :vehiculo, null: true, foreign_key: true
-      t.date :fecha_ingreso
-      t.string :fecha_salida
+      t.datetime :fecha_ingreso
+      t.datetime :fecha_salida
       t.integer :valor
       t.timestamps
     end
